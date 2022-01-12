@@ -1,4 +1,4 @@
-from turtle import Shape, Screen, Turtle, Vec2D as Vec, width
+from turtle import Shape, Screen, Turtle, Vec2D as Vec
 
 G = 8
 NUM_LOOPS = 4100 
@@ -57,7 +57,7 @@ class Planet(Turtle):
     def main():
         screen = Screen()
         screen.setup(width=1.0, height=1.0) #Fullscreens 
-        screen.bigcolor('black')
+        screen.bgcolor('black')
         screen.title("Apollo 8 Return Simulation")
         gravsys = GravSyst()
         #Sizes and scales both the earth and the moon
